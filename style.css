@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(2, 35, 35);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px 1fr 1fr 1fr 1fr;
+  grid-template-areas: "header" "section1" "section2" "section3" "section4";
+}
+main header {
+  height: 100%;
+  width: 100%;
+  grid-area: header;
+  background-color: #FFFFFF;
+}
+main header nav {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+main header nav .logo {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main header nav .logo img {
+  height: 30px;
+  width: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+main header nav .link {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main header nav .link a {
+  padding: 5px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+  font-weight: 400;
+}
+main header nav .login {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main header nav .login button {
+  padding: 8px 25px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+main #section1 {
+  height: 100%;
+  width: 100%;
+  grid-area: section1;
+  background-color: #FFFFFF;
+}
+main #section1 .full-div {
+  height: 500px;
+  width: 90%;
+  margin: 12px 60px;
+  background-image: url(https://i.pinimg.com/736x/67/fd/08/67fd080836cb1dc577024c7d574fdbcd.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px black;
+}
+main #section1 .full-div .content {
+  height: 300px;
+  width: 300px;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main #section1 .full-div .content h1 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 900;
+  padding-top: 30px;
+  background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTg0cXRxdjVkYXpwdDQxbmxsejV5bjYxejgzOGluaG04MWJsY2hiOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/REQjNzjlfR4mVE8WSR/giphy.gif");
+  background-size: cover;
+  /* ya contain */
+  background-position: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+main #section1 .full-div .content h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+main #section1 .full-div .content .btm-field .book {
+  margin-top: 30px;
+  padding: 12px 30px;
+  border-radius: 20px;
+  font-size: 16px;
+  border: none;
+  color: white;
+  background: #2986FF;
+}
+main #section1 .social-link {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 12px 40px;
+}
+main #section1 .social-link .icon {
+  height: 100%;
+  width: 50%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+main #section1 .social-link .icon #insta {
+  color: #FE006A;
+}
+main #section1 .social-link .icon #facebook {
+  color: #0865FE;
+}
+main #section1 .social-link .icon #twitter {
+  color: #000000;
+}
+main #section1 .social-link .book-store {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+main #section1 .social-link a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #555;
+}
+main #section2 {
+  grid-area: section2;
+  background-color: #FFFFFF;
+  height: 100%;
+  width: 100%;
+}
+main #section2 .destination-info {
+  margin-top: 30px;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main #section2 .destination-info .info {
+  height: 100%;
+  width: 50%;
+}
+main #section2 .destination-info .info h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+main #section2 .destination-info .info p {
+  font-size: 14px;
+  font-weight: 400;
+}
+main #section2 .destination-info .logo {
+  height: 100%;
+}
+main #section2 .destination-info .logo .ri-arrow-left-s-line {
+  font-size: 40px;
+  color: #444;
+}
+main #section2 .destination-info .logo .ri-arrow-right-s-line {
+  font-size: 40px;
+  color: #444;
+}
+main #section2 #card-list {
+  margin-top: 20px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+main #section2 #card-list .card {
+  height: 300px;
+  width: 270px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+main #section2 #card-list .card img {
+  height: 250px;
+  width: 100%;
+  border-radius: 16px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  box-shadow: 0px 0px 10px black;
+}
+main #section2 #card-list .card video {
+  height: 250px;
+  width: 100%;
+  border-radius: 16px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  box-shadow: 0px 0px 10px black;
+}
+main #section2 #card-list .card .location {
+  height: 50px;
+  width: 90px;
+  display: flex;
+  gap: 1px;
+}
+main #section2 #card-list .card .location p {
+  font-size: 16px;
+  font-weight: 600;
+}
+main #section2 #card-list .card .location .ri-map-pin-2-line {
+  font-size: 16px;
+}
+main #section3 {
+  grid-area: section3;
+}
+main #section4 {
+  grid-area: section4;
+}/*# sourceMappingURL=style.css.map */
