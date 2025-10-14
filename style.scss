@@ -318,7 +318,63 @@ main {
 
     #section3 {
         grid-area: section3;
+        height: 100%;
+        width: 100%;
+        background-color: #FFFFFF;
+        text-align: center;
 
+        h1 {
+            padding: 20px 30px;
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        #booking-section {
+            height: 400px;
+            width: 100%;
+
+
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+
+            .card {
+                height: 300px;
+                width: 280px;
+                background-color: #2986FF;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                flex-direction: column;
+                color: white;
+                text-align: center;
+                border-radius: 12px;
+                overflow: hidden;
+                box-shadow: 0px 0px 10px black;
+
+                .heading {
+                    font-size: 40px;
+                }
+
+                p {
+                    font-size: 15px;
+                }
+
+                img {
+
+                    height: 140px;
+                    width: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                    clip-path: circle(57.8% at 89% 9%);
+
+                }
+            }
+        }
     }
 
     #section4 {

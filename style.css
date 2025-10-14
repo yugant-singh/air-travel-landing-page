@@ -255,6 +255,53 @@ main #section2 #card-list .card .location .ri-map-pin-2-line {
 }
 main #section3 {
   grid-area: section3;
+  height: 100%;
+  width: 100%;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+main #section3 h1 {
+  padding: 20px 30px;
+  font-size: 30px;
+}
+main #section3 p {
+  font-size: 16px;
+}
+main #section3 #booking-section {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main #section3 #booking-section .card {
+  height: 300px;
+  width: 280px;
+  background-color: #2986FF;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px black;
+}
+main #section3 #booking-section .card .heading {
+  font-size: 40px;
+}
+main #section3 #booking-section .card p {
+  font-size: 15px;
+}
+main #section3 #booking-section .card img {
+  height: 140px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  clip-path: circle(57.8% at 89% 9%);
 }
 main #section4 {
   grid-area: section4;
