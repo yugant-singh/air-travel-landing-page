@@ -304,5 +304,66 @@ main #section3 #booking-section .card img {
   clip-path: circle(57.8% at 89% 9%);
 }
 main #section4 {
+  height: 100%;
+  width: 100%;
   grid-area: section4;
+}
+main #section4 #offer-section {
+  height: 500px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main #section4 #offer-section .kit-offer {
+  height: 90%;
+  width: 30%;
+  overflow: hidden;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main #section4 #offer-section .kit-offer img {
+  height: 350px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 12px;
+}
+main #section4 #offer-section .kit-offer h2 {
+  font-size: 30px;
+  color: #2986FF;
+}
+main #section4 #offer-section .kit-offer p {
+  font-size: 20px;
+  color: #555;
+}
+main #section4 #offer-section .booking-offer {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 70%;
+  width: 45%;
+  background-color: white;
+  color: #333;
+}
+main #section4 #offer-section .booking-offer h1 {
+  padding-bottom: 40px;
+  font-size: 50px;
+  text-align: center;
+}
+main #section4 #offer-section .booking-offer button {
+  padding: 15px 70px;
+  font-size: 20px;
+  border-radius: 12px;
+  background-color: #84B7D0;
+  font-weight: 600;
+  border: none;
+  margin-top: 60px;
 }/*# sourceMappingURL=style.css.map */

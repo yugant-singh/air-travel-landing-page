@@ -378,7 +378,76 @@ main {
     }
 
     #section4 {
+        height: 100%;
+        width: 100%;
         grid-area: section4;
+
+
+        #offer-section{
+            height: 500px;
+            width: 100%;
+           padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+            .kit-offer{
+                height: 90%;
+                width: 30%;
+             
+                overflow: hidden;
+                border-radius: 12px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+             
+             
+                img{
+                    height: 350px;
+                    width: 100%;
+                    object-fit: cover;
+                    object-position:center;
+                    border-radius: 12px;
+                }
+                h2{
+                   
+                    font-size: 30px;
+                    color:#2986FF;
+                }
+                 p{
+                    font-size: 20px;
+                    color:#555;
+                }
+            }
+
+            .booking-offer{
+                font-family: Arial, Helvetica, sans-serif;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: space-evenly;
+                height: 70%;
+                width: 45%;
+               background-color: white;
+               color: #333;
+
+               h1{
+                padding-bottom: 40px;
+                font-size: 50px;
+                text-align: center;
+               }
+
+               button{
+                padding: 15px 70px;
+                font-size: 20px;
+                border-radius: 12px;
+                background-color: #84B7D0;
+                font-weight: 600;
+                border: none;
+                margin-top: 60px;
+               }
+            }
+        }
 
     }
 }

@@ -36,6 +36,12 @@ Beach images and videos
 Location names (Maldive, Goa, Indonesia)
 Map pin icons
 
+# Today Task Done 
+✅ Section 3 - implemented  successfully today
+
+✅ Section 4 - implemented  successfully today
+
+
 
 ------------------------------------------------------------------------------------------------
 🛠️ Technologies Used
@@ -45,13 +51,8 @@ CSS3 with Grid & Flexbox
 
 Remix Icons
 ------------------------------------------------------------------------------------------------
-# ❌ Pending Sections
-Section 3 - To be implemented tomorrow
 
-Section 4 - To be implemented tomorrow
-------------------------------------------------------------------------------------------------
-
-# 🚀 How to Run
+#  How to Run
 Download all files
 
 Open index.html in browser
@@ -63,4 +64,5 @@ index.html - Main structure
 style.css - All styling
 logo.PNG - Brand logo
 
-# Project started today. More sections coming tomorrow.
+# Project Completed today. All Section Done .
+# I learned a lot of thing and now i am feeling confident with HTML and CSS 
